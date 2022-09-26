@@ -1,4 +1,4 @@
-function add(n1: number, n2: number, showResult: boolean) {
+function add2(n1: number, n2: number, showResult: boolean) {
   //   if (typeof n1 !== "number" || typeof n2 !== "number") {
   //     throw new Error("Incorrect input!");
   //   }
@@ -11,6 +11,6 @@ function add(n1: number, n2: number, showResult: boolean) {
 
 const number1 = 5;
 const number2 = 2.8;
-const printResult = true;
+const printResult2 = true;
 
-const result = add(number1, number2, printResult);
+const result = add2(number1, number2, printResult2);

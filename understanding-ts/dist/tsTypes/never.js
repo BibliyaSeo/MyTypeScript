@@ -1,5 +1,6 @@
-var userInput;
-var userName;
+"use strict";
+let userInput;
+let userName;
 userInput = 5;
 userInput = "Bibliya";
 if (typeof userInput === "string") {
@@ -7,5 +8,6 @@ if (typeof userInput === "string") {
 }
 function generateError(message, code) {
     throw { message: message, errorCode: code };
+    // while(true) {}
 }
 generateError("An Error ocuurred!", 500);

@@ -23,6 +23,21 @@ enum Avengers {
 }
 const myHero = Avengers.Capt;
 
+// 이넘 예제
+enum Answer {
+  Yes = "Y",
+  No = "N",
+}
+
+function askQuestion(answer: Answer) {
+  if (answer === Answer.Yes) {
+    console.log("정답입니다!");
+  }
+  if (answer === Answer.No) {
+    console.log("오답입니다");
+  }
+}
+
 // any
 let a: any = "hi";
 a = 20;
@@ -43,18 +58,3 @@ const divElement = document.querySelector("#app");
 divElement.innerHTML;
 // const empty = document.querySelector('#app') as null;
 // empty.innerHTML;
-
-// 예제
-enum Answer {
-  Yes = "Y",
-  No = "N",
-}
-
-function askQuestion(answer: Answer) {
-  if (answer === Answer.Yes) {
-    console.log("정답입니다!");
-  }
-  if (answer === Answer.No) {
-    console.log("오답입니다");
-  }
-}

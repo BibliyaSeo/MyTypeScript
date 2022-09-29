@@ -90,3 +90,4 @@ console.log(accounting.mostRecentReport);
 accounting.describe();
 // const ITCopy = { name: "Dummy", describe: it.describe };
 // ITCopy.describe();
+//# sourceMappingURL=classes.js.map

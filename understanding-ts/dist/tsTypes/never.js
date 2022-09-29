@@ -11,3 +11,4 @@ function generateError(message, code) {
     // while(true) {}
 }
 generateError("An Error ocuurred!", 500);
+//# sourceMappingURL=never.js.map

@@ -34,3 +34,4 @@ Person = __decorate([
 ], Person);
 const pers = new Person();
 console.log(pers);
+//# sourceMappingURL=decorator.js.map

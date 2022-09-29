@@ -23,3 +23,4 @@ for (const hobby of person.hobbies) {
 if (person.role === Role.ADMIN) {
     console.log("is admin");
 }
+//# sourceMappingURL=objs-arrays-enums.js.map

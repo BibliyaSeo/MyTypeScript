@@ -16,3 +16,4 @@ user1 = new Person2("Bibliya");
 // user1.name = 'Manu' readonly여서 error
 user1.greet("Hi there - I am");
 console.log(user1);
+//# sourceMappingURL=interface.js.map
